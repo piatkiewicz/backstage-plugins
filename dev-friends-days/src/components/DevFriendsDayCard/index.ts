@@ -1,0 +1,1 @@
+export { DevFriendsDayCard } from './DevFriendsDayCard';

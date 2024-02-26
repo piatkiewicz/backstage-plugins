@@ -1,0 +1,1 @@
+export { devFriendsDaysPlugin } from './plugin';
