@@ -1,4 +1,4 @@
-import { createPlugin } from '@backstage/core-plugin-api';
+import { createPlugin, createComponentExtension } from '@backstage/core-plugin-api';
 
 import { rootRouteRef } from './routes';
 
@@ -8,3 +8,12 @@ export const devFriendsDaysPlugin = createPlugin({
     root: rootRouteRef,
   },
 });
+
+export const DevFriendsDayCard = devFriendsDaysPlugin.provide(
+  createComponentExtension({
+    name: 'DevFriendsDayCard',
+    component: {
+      lazy: () => import('./components/DevFriendsDayCard').then(m => m.DevFriendsDayCard),
+    },
+  }),
+);
