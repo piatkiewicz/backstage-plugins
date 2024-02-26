@@ -1,1 +1,4 @@
-export { devFriendsDaysPlugin } from './plugin';
+export { 
+    devFriendsDaysPlugin,
+    DevFriendsDayCard
+} from './plugin';
