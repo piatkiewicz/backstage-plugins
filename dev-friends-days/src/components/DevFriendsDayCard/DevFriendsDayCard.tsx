@@ -32,7 +32,7 @@ const dayOwnerText =
 const dayText = dayOwnerText ? "Today is the " + dayOwnerText + "!" : "No special day today";
 
 export const DevFriendsDayCard = () => (
-    <InfoCard title="Special day">
+  <InfoCard title="Special day">
     <Typography variant="body1">
       {dayText}
     </Typography>
