@@ -1,13 +1,12 @@
 {
-    "extends": "@backstage/cli/config/tsconfig.json",
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "declaration": true,
-      "outDir": "./dist",
-      "strict": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "jsx": "react"
-    }
+  "extends": "@backstage/cli/config/tsconfig.json",
+  "include": [
+    "*/src",
+    "*/dev"
+  ],
+  "compilerOptions": {
+    "outDir": "dist-types",
+    "rootDir": ".",
+    "useUnknownInCatchVariables": false
   }
+}
