@@ -1,6 +1,6 @@
 {
-  "name": "backstage-dev-friends-days",
-  "version": "0.1.14",
+  "name": "@piatkiewicz/backstage-dev-friends-days",
+  "version": "0.1.15",
   "license": "Apache-2.0",
   "files": [
     "dist"
