@@ -19,7 +19,7 @@ Regular day without any Devs' friends event:
 1. Add plugin to your frontend app
 ```sh
 # From your Backstage root directory
-yarn --cwd packages/app add @piatkiewicz/backstage-dev-friends-days`
+yarn --cwd packages/app add @piatkiewicz/backstage-dev-friends-days
 ```
 
 2. Add import and place the `DevFriendsDayCard` component where you want it to display
