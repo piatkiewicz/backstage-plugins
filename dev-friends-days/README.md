@@ -4,7 +4,7 @@ Welcome to the dev-friends-days plugin for Backstage!
 
 ## Getting started
 
-This plugin offers `<DevFiendsDayCard />` which shows info if there is the Programmer, Tester or SysAdmin day today so you will know when to celebrate that special day with your team!
+This plugin offers `<DevFriendsDayCard />` which shows info if there is the Programmer, Tester or SysAdmin day today so you will know when to celebrate that special day with your team!
 
 On the last Friday of July:
 
