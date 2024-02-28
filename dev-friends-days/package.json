@@ -1,6 +1,6 @@
 {
   "name": "@piatkiewicz/backstage-dev-friends-days",
-  "version": "0.1.16",
+  "version": "0.1.19",
   "license": "Apache-2.0",
   "files": [
     "dist"
@@ -47,6 +47,8 @@
     "msw": "^1.0.0"
   },
   "description": "Backstage plugin displaying info about special days related to dev's coworkers",
-  "repository": "https://github.com/piatkiewicz/backstage-plugins/tree/main/dev-friends-days",
+  "repository": {
+    "url": "https://github.com/piatkiewicz/backstage-plugins.git"
+  },
   "author": "Piotr Piątkiewicz"
 }
